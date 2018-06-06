@@ -2,28 +2,28 @@ module.exports = {
 
   "DB": {
     "Type":"postgres",
-    "User":"duo",
-    "Password":"DuoS123",
+    "User":"",
+    "Password":"",
     "Port":5432,
-    "Host":"104.236.231.11",
-    "Database":"duo"
+    "Host":"",
+    "Database":""
   },
   "Mongo":
   {
-    "ip":"45.55.142.207",
+    "ip":"",
     "port":"27017",
-    "dbname":"dvpdb",
-    "password":"DuoS123",
-    "user":"duo"
+    "dbname":"",
+    "password":"",
+    "user":""
   },
 
 
   "Security":
   {
-    "ip" : "45.55.142.207",
+    "ip" : "",
     "port": 6389,
-    "user": "duo",
-    "password": "DuoS123"
+    "user": "",
+    "password": ""
   },
 
   "Host":{
@@ -31,7 +31,7 @@ module.exports = {
   },
 
   "Url":{
-    "login":"http://userservice.app.veery.cloud/auth/login"
+    "login":"http://localhost/auth/login"
   }
 
 };
